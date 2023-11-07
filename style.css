@@ -1,0 +1,41 @@
+body
+{
+    background-size: cover;
+    text-align: center;
+}
+.heading
+{
+    width: 98%;
+    text-align: left;
+}
+.heading h3{
+    display: inline;
+}
+.heading button
+{
+    float: right;
+    border: 1px solid rgb(241, 208, 208);
+    font-style: italic;
+}
+
+#start,#status,#restart
+{
+    font-size: 20px;
+}
+
+#name{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(35, 32, 108);
+    color: rgb(212, 247, 235);
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    line-height: 2;
+    margin-bottom: 0%;
+}
+canvas{
+    border-radius: 5px;
+    margin-top: 50px;
+    box-shadow: 10px 10px 10px rgb(48, 21, 138);
+}
